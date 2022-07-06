@@ -9,7 +9,8 @@ public class TicketManager {
     private TicketRepository repository;
 
     public TicketManager(TicketRepository repository) {
-        this.repository = repository;{
+        this.repository = repository;
+        {
         }
     }
 

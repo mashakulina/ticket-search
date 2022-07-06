@@ -57,10 +57,6 @@ public class Ticket implements Comparable<Ticket> {
         this.flightTime = flightTime;
     }
 
-//    @Override
-//    public String toString() {
-//        return id;}
-
     @Override
     public int compareTo(Ticket otherTicket) {
         if (cost < otherTicket.cost) {
